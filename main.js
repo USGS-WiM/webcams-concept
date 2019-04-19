@@ -15,7 +15,7 @@ var xmlSites;
                 }); 
                 function startComparison(){
                     var webcamMarkers = {};
-                    $.getJSON('webcam_site_info.json', function (data) {
+                    $.getJSON('exported_sits_v3.json', function (data) {
                         //console.log(data);
                         siteInfo = data;
                         var count = 0;
@@ -28,13 +28,20 @@ var xmlSites;
                                 + site.timelapseRoot + site.timelapseLarge +
                                 ' target="_blank"><img width="200" src=' + site.thumbnail + ' ></a><div>click image to open full-size video</div></br><div><b>Video Folder: </b><a href=' +
                                 site.timelapseFolder + ' target="_blank">Index of videos and images</a></div><div><b>Frames Gallery: </b><a href=' +
-                               site.timelapseFolder + 'frame_gallery/ target="_blank">Last 100 Frames</a></div></br>';
+                               site.timelapseFolder + 'frame_gallery/ target="_blank">Last 100 Frames</a></div></br>' +
+                               '<div><b>Site Type: </b>' + site.SiteType2 + '</div></br>';
                             var latlngArr = findSite(siteID);
 
                             //only continue if valid latlng found
                             if (latlngArr[0] != "error") {
-                                webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
-                                sitesLayer.addLayer(webcamMarkers[siteID])
+                                if (site.SiteType2 == "stream"){
+                                    webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
+                                    streamLayer.addLayer(webcamMarkers[siteID])
+                                } else{
+                                    webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
+                                    sitesLayer.addLayer(webcamMarkers[siteID])
+                                }
+                                
                                 count++;
                             }
 
@@ -83,9 +90,12 @@ var xmlSites;
 
             //create markercluster group
             var mcg = L.markerClusterGroup({showCoverageOnHover: false, maxClusterRadius:.1, spiderfyDistanceMultiplier: 2}).addTo(map);
+            //var siteClusterGroup = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: .1, spiderfyDistanceMultiplier: 2 }).addTo(map);
 
             //add markerClusters to feature group
+            var streamLayer = L.featureGroup.subGroup(mcg).addTo(map);
             var sitesLayer = L.featureGroup.subGroup(mcg).addTo(map);
+            
             
 
             //leaflet tilelayer of NWIS sites
@@ -93,8 +103,9 @@ var xmlSites;
             
             //objects for layer controls
             var overlayLayers = {   
-                "All Nwis Sites": swActTileLayer,
-                "Webcam locations": sitesLayer
+                "Stream Webcams": streamLayer,
+                "Other Webcam locations": sitesLayer,
+                "All Nwis Sites": swActTileLayer
             }
 
             var baseMaps = {
