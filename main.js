@@ -15,7 +15,7 @@ var xmlSites;
                 }); 
                 function startComparison(){
                     var webcamMarkers = {};
-                    $.getJSON('exported_sits_v3.json', function (data) {
+                    $.getJSON('webcam_site_info_new.json', function (data) {
                         //console.log(data);
                         siteInfo = data;
                         var count = 0;
@@ -34,13 +34,13 @@ var xmlSites;
 
                             //only continue if valid latlng found
                             if (latlngArr[0] != "error") {
-                                //if (site.SiteType2 == "stream"){
-                                    webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
+                                if (site.SiteType2 == "stream"){
+                                    webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "blue", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
                                     streamLayer.addLayer(webcamMarkers[siteID])
-                               /*  } else{
+                                } else{
                                     webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
                                     sitesLayer.addLayer(webcamMarkers[siteID])
-                                } */
+                                } 
                                 
                                 count++;
                             }
