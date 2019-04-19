@@ -35,10 +35,10 @@ var xmlSites;
                             //only continue if valid latlng found
                             if (latlngArr[0] != "error") {
                                 if (site.SiteType2 == "stream"){
-                                    webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "blue", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
+                                    webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
                                     streamLayer.addLayer(webcamMarkers[siteID])
                                 } else{
-                                    webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
+                                    webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#31353C", color: "#000", weight: 0, fillOpacity: 0.7, radius: 7 }).bindPopup(customPopup);
                                     sitesLayer.addLayer(webcamMarkers[siteID])
                                 } 
                                 
@@ -96,12 +96,25 @@ var xmlSites;
             });
 
             //create markercluster group
-            var mcg = L.markerClusterGroup({showCoverageOnHover: false, maxClusterRadius:.1, spiderfyDistanceMultiplier: 2}).addTo(map);
-            //var siteClusterGroup = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: .1, spiderfyDistanceMultiplier: 2 }).addTo(map);
+            var mcg = L.markerClusterGroup({
+                showCoverageOnHover: false, 
+                maxClusterRadius:1.1, 
+                spiderfyDistanceMultiplier: 2,
+                iconCreateFunction: function(cluster){
+                    return new L.DivIcon({ html: cluster.getChildCount(), className: "streamSite leaflet-marker-icon marker-cluster leaflet-zoom-animated leaflet-interactive", iconSize: new L.Point(35, 35) });
+                }
+            }).addTo(map);
+            var otherClusterGroup = L.markerClusterGroup({ 
+                showCoverageOnHover: false,
+                 maxClusterRadius: 1.1, 
+                spiderfyDistanceMultiplier: 2,
+                iconCreateFunction: function (cluster) {
+                    return new L.DivIcon({ html: cluster.getChildCount(), className: "nonStream leaflet-marker-icon marker-cluster  leaflet-zoom-animated leaflet-interactive", iconSize: new L.Point(35, 35) });
+                } }).addTo(map);
 
             //add markerClusters to feature group
             var streamLayer = L.featureGroup.subGroup(mcg).addTo(map);
-            var sitesLayer = L.featureGroup.subGroup(mcg).addTo(map);
+            var sitesLayer = L.featureGroup.subGroup(otherClusterGroup).addTo(map);
             
             
 
@@ -109,9 +122,9 @@ var xmlSites;
             var swActTileLayer = L.tileLayer("https://nwismapper.s3.amazonaws.com/sw_act/{z}/{y}/{x}.png", {zIndex:999,maxZoom:8,errorTileUrl:"https://nwismapper.s3.amazonaws.com/blank.png"})
             
             //objects for layer controls
-            var overlayLayers = {   
+            var overlayLayers = { 
+                "Other Webcam locations": sitesLayer,  
                 "Stream Webcams": streamLayer,
-                "Other Webcam locations": sitesLayer,
                 "All Nwis Sites": swActTileLayer
             }
 
