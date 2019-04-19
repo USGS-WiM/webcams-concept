@@ -1,137 +1,140 @@
 <?xml version="1.0" ?>
 <mapper>
     <sites>
-        <site sno="13289220" sna="SNAKE RIVER BL BROWNLEE DAM ID-OR STATE LINE" cat="ST" lat="44.8454359" lng="-116.8968303" agc="USGS"/>
-        <site sno="05054000" sna="RED RIVER OF THE NORTH AT FARGO, ND" cat="ST" lat="46.861075" lng="-96.7836924" agc="USGS"/>
-        <site sno="06892350" sna="KANSAS R AT DESOTO, KS" cat="ST" lat="38.9833375" lng="-94.9646893" agc="USGS"/>
-        <site sno="05341550" sna="ST. CROIX RIVER AT STILLWATER, MN" cat="ST" lat="45.05607806" lng="-92.8040963" agc="USGS"/>
-        <site sno="05333500" sna="ST. CROIX RIVER NEAR DANBURY, WI" cat="ST" lat="46.0761111" lng="-92.2466667" agc="USGS"/>
-        <site sno="05370000" sna="EAU GALLE RIVER AT SPRING VALLEY, WI" cat="ST" lat="44.85277778" lng="-92.2383333" agc="USGS"/>
-        <site sno="05369500" sna="CHIPPEWA RIVER AT DURAND, WI" cat="ST" lat="44.631" lng="-91.9713333" agc="USGS"/>
-        <site sno="05331833" sna="NAMEKAGON RIVER AT LEONARDS, WI" cat="ST" lat="46.1713409" lng="-91.32935" agc="USGS"/>
-        <site sno="05356000" sna="CHIPPEWA RIVER AT BISHOPS BRIDGE NEAR WINTER, WI" cat="ST" lat="45.8486111" lng="-91.0788889" agc="USGS"/>
-        <site sno="05382284" sna="SILVER CREEK AT STATE HIGHWAY 21 NEAR ANGELO, WI" cat="ST" lat="43.9672222" lng="-90.765" agc="USGS"/>
-        <site sno="05382267" sna="LA CROSSE RIVER @ CNTY TRUNK HIGHWY BB NR TOMAH,WI" cat="ST" lat="44.00027778" lng="-90.7244444" agc="USGS"/>
-        <site sno="05359500" sna="SOUTH FORK FLAMBEAU RIVER NEAR PHILLIPS, WI" cat="ST" lat="45.7033333" lng="-90.6155556" agc="USGS"/>
-        <site sno="05402000" sna="YELLOW RIVER AT BABCOCK, WI" cat="ST" lat="44.3022222" lng="-90.1219444" agc="USGS"/>
-        <site sno="433821090063801" sna="DISCOVERY FARMS WATERWAY RS2 NEAR MAUSTON, WI" cat="FA-FON" lat="43.63905556" lng="-90.1104722" agc="USGS"/>
-        <site sno="433939090050501" sna="DISCOVERY FARMS WATERWAY RS1 NEAR MAUSTON, WI" cat="FA-FON" lat="43.6608611" lng="-90.0846389" agc="USGS"/>
-        <site sno="05433000" sna="EAST BRANCH PECATONICA RIVER NR BLANCHARDVILLE, WI" cat="ST" lat="42.78555556" lng="-89.8611111" agc="USGS"/>
-        <site sno="05401050" sna="TENMILE CREEK NEAR NEKOOSA, WI" cat="ST" lat="44.2625" lng="-89.8102778" agc="USGS"/>
-        <site sno="05435943" sna="BADGER MILL CREEK AT VERONA, WI" cat="ST" lat="42.97694444" lng="-89.5394444" agc="USGS"/>
-        <site sno="05427880" sna="SIXMILE CREEK AT STATE HIGHWAY 19 NEAR WAUNAKEE,WI" cat="ST" lat="43.1922222" lng="-89.4728889" agc="USGS"/>
-        <site sno="05427927" sna="DORN (SPRING) CREEK @ CT HIGHWAY Q NR WAUNAKEE, WI" cat="ST" lat="43.14505556" lng="-89.4718611" agc="USGS"/>
-        <site sno="05427965" sna="SPRING HARBOR STORM SEWER AT MADISON, WI" cat="FA-STS" lat="43.07916667" lng="-89.4708333" agc="USGS"/>
-        <site sno="05427930" sna="DORN (SPRING) CREEK AT CT HIGHWAY M NR WAUNAKEE,WI" cat="ST" lat="43.14027778" lng="-89.4423056" agc="USGS"/>
-        <site sno="05427910" sna="SIXMILE CREEK @ COUNTY TRNK HGHWY M NR WAUNAKEE,WI" cat="ST" lat="43.1468333" lng="-89.4368333" agc="USGS"/>
-        <site sno="05436500" sna="SUGAR RIVER NEAR BRODHEAD, WI" cat="ST" lat="42.61230556" lng="-89.3979722" agc="USGS"/>
-        <site sno="451021089064901" sna="DISCOVERY FARMS WATERWAY AO1 NEAR ANTIGO, WI" cat="FA-FON" lat="45.17238889" lng="-89.1136111" agc="USGS"/>
-        <site sno="451207089041801" sna="DISCOVERY FARMS WATERWAY AO2 NEAR ANTIGO, WI" cat="FA-FON" lat="45.2019444" lng="-89.0718056" agc="USGS"/>
-        <site sno="05430500" sna="ROCK RIVER AT AFTON, WI" cat="ST" lat="42.6136111" lng="-89.0716667" agc="USGS"/>
-        <site sno="040734605" sna="GREEN LAKE SW INLET @ CT HIGHWY K NR GREEN LAKE,WI" cat="ST" lat="43.7771111" lng="-89.0568611" agc="USGS"/>
-        <site sno="05427530" sna="ROCK RIVER AT NEWVILLE, WI" cat="ST" lat="42.83" lng="-89.0213889" agc="USGS"/>
-        <site sno="04080000" sna="LITTLE WOLF RIVER AT ROYALTON, WI" cat="ST" lat="44.4124806" lng="-88.8653842" agc="USGS"/>
-        <site sno="05427085" sna="ROCK RIVER AT ROBERT STREET AT FORT ATKINSON, WI" cat="ST" lat="42.9275" lng="-88.8427778" agc="USGS"/>
-        <site sno="04079000" sna="WOLF RIVER AT NEW LONDON, WI" cat="ST" lat="44.3922026" lng="-88.7403812" agc="USGS"/>
-        <site sno="441624088045601" sna="GLRI EAST RIVER WATERWAY NUMBER 1 NR GREENLEAF, WI" cat="FA-FON" lat="44.2733611" lng="-88.0821667" agc="USGS"/>
-        <site sno="0408708567" sna="UNDERWOOD CREEK AT UNNAMED ROAD, ELM GROVE, WI" cat="ST" lat="43.0372222" lng="-88.0672222" agc="USGS"/>
-        <site sno="040870860" sna="UNDERWOOD CREEK AT W BLUE MOUND RD, ELM GROVE, WI" cat="ST" lat="43.0361111" lng="-88.0669444" agc="USGS"/>
-        <site sno="0408708572" sna="UNDERWOOD CREEK NR W SCHLINGER AVE, WEST ALLIS, WI" cat="ST" lat="43.02388889" lng="-88.0625" agc="USGS"/>
-        <site sno="04087087" sna="UNDERWOOD CREEK AT 115TH STREET AT WAUWATOSA, WI" cat="ST" lat="43.04277778" lng="-88.05638889" agc="USGS"/>
-        <site sno="04087050" sna="LITTLE MENOMONEE RIVER NEAR FREISTADT, WI" cat="ST" lat="43.20667408" lng="-88.0384231" agc="USGS"/>
-        <site sno="425931087570201" sna="29TH ST STORM SEWER OUTLET AT MILWAUKEE, WI" cat="FA-OF" lat="42.99194444" lng="-87.9505556" agc="USGS"/>
-        <site sno="04086600" sna="MILWAUKEE RIVER NEAR CEDARBURG, WI" cat="ST" lat="43.28027778" lng="-87.9425" agc="USGS"/>
-        <site sno="442405087414401" sna="DISCOVERY FARMS WATERWAY KD1 NEAR KEWAUNEE, WI" cat="FA-FON" lat="44.40127778" lng="-87.6955556" agc="USGS"/>
-        <site sno="03339000" sna="VERMILION RIVER NEAR DANVILLE, IL" cat="ST" lat="40.10087009" lng="-87.5972419" agc="USGS"/>
-        <site sno="442155087330001" sna="DISCOVERY FARMS WATERWAY KD2 NEAR KEWAUNEE, WI" cat="FA-FON" lat="44.36527778" lng="-87.54988889" agc="USGS"/>
-        <site sno="413612087201001" sna="CITY HALL DRAIN OUTFLOW AT GARY, IN" cat="FA-STS" lat="41.60336389" lng="-87.3359917" agc="USGS"/>
-        <site sno="04182769" sna="ST. MARYS RIVER AT MAIN ST. AT FORT WAYNE, IN" cat="ST" lat="41.0786593" lng="-85.1544155" agc="USGS"/>
-        <site sno="04183000" sna="MAUMEE RIVER AT NEW HAVEN, IN" cat="ST" lat="41.08504866" lng="-85.0221904" agc="USGS"/>
-        <site sno="411229084541102" sna="DRAIN TILE EAST OF BULL RAPIDS RD NR HARLAN, IN" cat="FA-FON" lat="41.20813889" lng="-84.9032222" agc="USGS"/>
-        <site sno="04183038" sna="BLACK CREEK NEAR HARLAN, IN" cat="ST" lat="41.1830833" lng="-84.8696944" agc="USGS"/>
-        <site sno="04183105" sna="MAUMEE RIVER AT SR 101 NEAR WOODBURN, IN" cat="ST" lat="41.16977778" lng="-84.8491667" agc="USGS"/>
-        <site sno="04183500" sna="Maumee River at Antwerp OH" cat="ST" lat="41.19893889" lng="-84.7444033" agc="USGS"/>
-        <site sno="04183979" sna="Platter Creek near Sherwood OH" cat="ST" lat="41.26694444" lng="-84.5919444" agc="USGS"/>
-        <site sno="04191444" sna="Little Flatrock Creek near Junction OH" cat="ST" lat="41.18555556" lng="-84.4955556" agc="USGS"/>
-        <site sno="04185318" sna="Tiffin River near Evansport OH" cat="ST" lat="41.3825" lng="-84.4161111" agc="USGS"/>
-        <site sno="04192500" sna="Maumee River near Defiance OH" cat="ST" lat="41.2919928" lng="-84.2810573" agc="USGS"/>
-        <site sno="04186500" sna="Auglaize River near Fort Jennings OH" cat="ST" lat="40.9486617" lng="-84.266059" agc="USGS"/>
-        <site sno="04190000" sna="Blanchard River near Dupont OH" cat="ST" lat="41.0414393" lng="-84.2268905" agc="USGS"/>
-        <site sno="04188100" sna="Ottawa River near Kalida OH" cat="ST" lat="40.9903287" lng="-84.2266132" agc="USGS"/>
-        <site sno="04157005" sna="SAGINAW RIVER AT HOLLAND AVENUE AT SAGINAW, MI" cat="ST" lat="43.4219699" lng="-83.951918" agc="USGS"/>
-        <site sno="03093000" sna="Eagle Creek at Phalanx Station OH" cat="ST" lat="41.26116735" lng="-80.9542569" agc="USGS"/>
-        <site sno="04236000" sna="SKANEATELES LAKE AT SKANEATELES NY" cat="LK" lat="42.94476667" lng="-76.4291917" agc="USGS"/>
-        <site sno="01480000" sna="RED CLAY CREEK AT WOODDALE, DE" cat="ST" lat="39.76280556" lng="-75.6365" agc="USGS"/>
-        <site sno="01481000" sna="Brandywine Creek at Chadds Ford, PA" cat="ST" lat="39.8698328" lng="-75.5932623" agc="USGS"/>
-        <site sno="01426500" sna="WEST BRANCH DELAWARE RIVER AT HALE EDDY NY" cat="ST" lat="42.00302778" lng="-75.38352778" agc="USGS"/>
-        <site sno="01465500" sna="Neshaminy Creek near Langhorne, PA" cat="ST" lat="40.1739982" lng="-74.9568342" agc="USGS"/>
-        <site sno="01462000" sna="Delaware River at Lambertville NJ" cat="ST" lat="40.3647222" lng="-74.94888889" agc="USGS"/>
-        <site sno="01463500" sna="Delaware River at Trenton NJ" cat="ST" lat="40.22166667" lng="-74.7780556" agc="USGS"/>
-        <site sno="01437500" sna="NEVERSINK RIVER AT GODEFFROY NY" cat="ST" lat="41.4411111" lng="-74.6019444" agc="USGS"/>
-        <site sno="01161280" sna="CONNECTICUT RIVER NEAR NORTHFIELD, MA" cat="ST" lat="42.6833333" lng="-72.4719444" agc="USGS"/>
-        <site sno="08361000" sna="RIO GRANDE BELOW ELEPHANT BUTTE DAM, NM" cat="ST" lat="33.1485111" lng="-107.2067833" agc="USGS"/>
-        <site sno="334716104175400" sna="PECOS WEB CAMERA NEAR ROSWELL, NM" cat="ST" lat="33.78777778" lng="-104.2983333" agc="USGS"/>
-        <site sno="06342500" sna="MISSOURI RIVER AT BISMARCK, ND" cat="ST" lat="46.81416667" lng="-100.8213889" agc="USGS"/>
-        <site sno="05287890" sna="ELM CREEK NR CHAMPLIN, MN" cat="ST" lat="45.1632981" lng="-93.4366212" agc="USGS"/>
-        <site sno="05289800" sna="MINNEHAHA CREEK AT HIAWATHA AVE. IN MINNEAPOLIS,MN" cat="ST" lat="44.91552097" lng="-93.2127224" agc="USGS"/>
-        <site sno="05342000" sna="KINNICKINNIC RIVER NEAR RIVER FALLS, WI" cat="ST" lat="44.8308333" lng="-92.7330556" agc="USGS"/>
-        <site sno="05341752" sna="WILLOW RIVER @ WILLOW R STATE PARK NR BURKHARDT,WI" cat="ST" lat="45.01166667" lng="-92.7083333" agc="USGS"/>
-        <site sno="04024430" sna="NEMADJI RIVER NEAR SOUTH SUPERIOR, WI" cat="ST" lat="46.6333333" lng="-92.0938889" agc="USGS"/>
-        <site sno="05367500" sna="RED CEDAR RIVER NEAR COLFAX, WI" cat="ST" lat="45.05305556" lng="-91.7119444" agc="USGS"/>
-        <site sno="04025500" sna="BOIS BRULE RIVER AT BRULE, WI" cat="ST" lat="46.53777778" lng="-91.5952778" agc="USGS"/>
-        <site sno="05365550" sna="CHIPPEWA RIVER BELOW DELLS DAM AT EAU CLAIRE, WI" cat="ST" lat="44.8225833" lng="-91.5076111" agc="USGS"/>
-        <site sno="05379400" sna="TREMPEALEAU RIVER AT ARCADIA, WI" cat="ST" lat="44.25444444" lng="-91.5052778" agc="USGS"/>
-        <site sno="05366800" sna="CHIPPEWA R AT GRAND AVE AT EAU CLAIRE, WI" cat="ST" lat="44.80959899" lng="-91.5029665" agc="USGS"/>
-        <site sno="05382200" sna="FRENCH CREEK NEAR ETTRICK, WI" cat="ST" lat="44.18440417" lng="-91.3137666" agc="USGS"/>
-        <site sno="05356500" sna="CHIPPEWA RIVER NEAR BRUCE, WI" cat="ST" lat="45.4521867" lng="-91.2609878" agc="USGS"/>
-        <site sno="463741090521301" sna="ASHLAND BREAKWATER LIGHTHOUSE CHEQUAMEGON BAY, WI" cat="LK" lat="46.6280833" lng="-90.8703889" agc="USGS"/>
-        <site sno="05407000" sna="WISCONSIN RIVER AT MUSCODA, WI" cat="ST" lat="43.19805556" lng="-90.4433333" agc="USGS"/>
-        <site sno="05399500" sna="BIG EAU PLEINE RIVER AT STRATFORD, WI" cat="ST" lat="44.8219098" lng="-90.0795754" agc="USGS"/>
-        <site sno="05400760" sna="WISCONSIN RIVER AT WISCONSIN RAPIDS, WI" cat="ST" lat="44.3921593" lng="-89.8271246" agc="USGS"/>
-        <site sno="05434500" sna="PECATONICA RIVER AT MARTINTOWN, WI" cat="ST" lat="42.51" lng="-89.8013889" agc="USGS"/>
-        <site sno="05435950" sna="SUGAR RIVER NEAR VERONA, WI" cat="ST" lat="42.94916667" lng="-89.5441667" agc="USGS"/>
-        <site sno="05427943" sna="PHEASANT BRANCH AT AIRPORT ROAD NEAR MIDDLETON, WI" cat="ST" lat="43.1111111" lng="-89.5361111" agc="USGS"/>
-        <site sno="054279465" sna="S FORK PHEASANT BRANCH @ DEMING WAY @ MIDDLETON,WI" cat="ST" lat="43.09860617" lng="-89.52151" agc="USGS"/>
-        <site sno="05427948" sna="PHEASANT BRANCH AT MIDDLETON, WI" cat="ST" lat="43.1033333" lng="-89.5116667" agc="USGS"/>
-        <site sno="05428500" sna="YAHARA RIVER AT EAST MAIN STREET AT MADISON, WI" cat="ST" lat="43.08944444" lng="-89.3608333" agc="USGS"/>
-        <site sno="05427718" sna="YAHARA RIVER AT WINDSOR, WI" cat="ST" lat="43.20888889" lng="-89.3525" agc="USGS"/>
-        <site sno="430402089183501" sna="US HWY 51 WISDOT GRASS SWALES DOWNSTRM MADISON, WI" cat="ST-DCH" lat="43.06713889" lng="-89.30975" agc="USGS"/>
-        <site sno="05429500" sna="YAHARA RIVER AT MC FARLAND, WI" cat="ST" lat="43.00888889" lng="-89.305" agc="USGS"/>
-        <site sno="05429700" sna="YAHARA RIVER @ FORTON STREET BRIDGE @ STOUGHTON,WI" cat="ST" lat="42.9197239" lng="-89.2203937" agc="USGS"/>
-        <site sno="05430150" sna="BADFISH CREEK NEAR COOKSVILLE, WI" cat="ST" lat="42.83333785" lng="-89.19678199" agc="USGS"/>
-        <site sno="05430175" sna="YAHARA RIVER NEAR FULTON, WI" cat="ST" lat="42.82638889" lng="-89.1719444" agc="USGS"/>
-        <site sno="04081000" sna="WAUPACA RIVER NEAR WAUPACA, WI" cat="ST" lat="44.32916667" lng="-88.9958333" agc="USGS"/>
-        <site sno="04073462" sna="WHITE CREEK AT SPRING GROVE ROAD NR GREEN LAKE, WI" cat="ST" lat="43.8161111" lng="-88.9283333" agc="USGS"/>
-        <site sno="05424057" sna="ROCK RIVER AT HORICON, WI" cat="ST" lat="43.45027778" lng="-88.6322222" agc="USGS"/>
-        <site sno="442114088085701" sna="GLRI WATERWAY NUMBER 5 NR WRIGHTSTOWN, WI" cat="FA-FON" lat="44.3539722" lng="-88.1491944" agc="USGS"/>
-        <site sno="442119088085501" sna="GLRI WATERWAY NUMBER 4 NR WRIGHTSTOWN, WI" cat="FA-FON" lat="44.35530556" lng="-88.1486667" agc="USGS"/>
-        <site sno="441546088082001" sna="GLRI EAST RIVER WATERWAY NUMBER 2 NR GREENLEAF, WI" cat="FA-FON" lat="44.2628333" lng="-88.13875" agc="USGS"/>
-        <site sno="04085108" sna="EAST RIVER @ CNTY TRUNK HIGHWAY ZZ NR GREENLEAF,WI" cat="ST" lat="44.37194444" lng="-88.0922222" agc="USGS"/>
-        <site sno="04087214" sna="ROOT RIVER AT GRANGE AVENUE AT GREENFIELD, WI" cat="ST" lat="42.945" lng="-88.0141667" agc="USGS"/>
-        <site sno="040851385" sna="FOX RIVER AT OIL TANK DEPOT AT GREEN BAY, WI" cat="ST" lat="44.5286111" lng="-88.01" agc="USGS"/>
-        <site sno="04087119" sna="HONEY CREEK AT WAUWATOSA, WI" cat="ST" lat="43.0438333" lng="-88.0051111" agc="USGS"/>
-        <site sno="04087120" sna="MENOMONEE RIVER AT WAUWATOSA, WI" cat="ST" lat="43.04555556" lng="-87.9997222" agc="USGS"/>
-        <site sno="04087220" sna="ROOT RIVER NEAR FRANKLIN, WI" cat="ST" lat="42.8736111" lng="-87.9958333" agc="USGS"/>
-        <site sno="04087233" sna="ROOT RIVER CANAL NEAR FRANKLIN, WI" cat="ST-CA" lat="42.81555556" lng="-87.9947222" agc="USGS"/>
-        <site sno="04087234" sna="ROOT RIVER AT 60TH ST NEAR CALEDONIA, WI" cat="ST" lat="42.85555556" lng="-87.9907222" agc="USGS"/>
-        <site sno="04087204" sna="OAK CREEK AT SOUTH MILWAUKEE, WI" cat="ST" lat="42.925" lng="-87.87" agc="USGS"/>
-        <site sno="04087257" sna="PIKE RIVER NEAR RACINE, WI" cat="ST" lat="42.64694444" lng="-87.8605556" agc="USGS"/>
-        <site sno="04087240" sna="ROOT RIVER AT RACINE, WI" cat="ST" lat="42.75138889" lng="-87.8236111" agc="USGS"/>
-        <site sno="04086000" sna="SHEBOYGAN RIVER AT SHEBOYGAN, WI" cat="ST" lat="43.74138889" lng="-87.7521111" agc="USGS"/>
-        <site sno="443535087345401" sna="KW-25/24E/34-0183" cat="GW" lat="44.5929722" lng="-87.5816194" agc="USGS"/>
-        <site sno="04182000" sna="ST. MARYS RIVER NEAR FORT WAYNE, IN" cat="ST" lat="40.9878257" lng="-85.111914" agc="USGS"/>
-        <site sno="411228084541701" sna="OVERLAND FLOW WEST OF BULL RAPIDS RD NR HARLAN, IN" cat="FA-FON" lat="41.20780556" lng="-84.9048333" agc="USGS"/>
-        <site sno="411229084541102" sna="DRAIN TILE EAST OF BULL RAPIDS RD NR HARLAN, IN" cat="FA-FON" lat="41.20813889" lng="-84.9032222" agc="USGS"/>
-        <site sno="411229084541101" sna="OVERLAND FLOW EAST OF BULL RAPIDS RD NR HARLAN, IN" cat="FA-FON" lat="41.20813889" lng="-84.9031667" agc="USGS"/>
-        <site sno="0414826504" sna="TRIB TO KIMBALL DRAIN NEAR SWARTZ CREEK, MI" cat="ST" lat="42.9222222" lng="-83.8330556" agc="USGS"/>
-        <site sno="405051083391201" sna="Eagle Creek waterway 1 near Williamstown OH" cat="FA-FON" lat="40.8475" lng="-83.6533333" agc="USGS"/>
-        <site sno="425520078535601" sna="MANHOLE, DELEVAN ST, 110 FT WEST OF NIAGARA ST" cat="FA-STS" lat="42.92227778" lng="-78.8988333" agc="USGS"/>
-        <site sno="425543078535001" sna="MANHOLE, 50 FT E NIAGARA ST, 115 FT S SCAJAQUADA C" cat="FA-STS" lat="42.9285" lng="-78.8973056" agc="USGS"/>
-        <site sno="424131077495801" sna="NY-SW3 ALFRED FARMS EDGE OF FIELD, SONYEA NY" cat="FA-FON" lat="42.6918333" lng="-77.83263889" agc="USGS"/>
-        <site sno="424131077495802" sna="NY-TL1 ALFRED TILE EDGE OF FIELD, SONYEA NY" cat="FA-FON" lat="42.6918333" lng="-77.8324722" agc="USGS"/>
-        <site sno="424129077495501" sna="NY-SW4 ALFRED FARMS EDGE OF FIELD, SONYEA NY" cat="FA-FON" lat="42.69138889" lng="-77.8320278" agc="USGS"/>
-        <site sno="424129077495502" sna="NY-TL2 ALFRED TILE EDGE OF FIELD, SONYEA" cat="FA-FON" lat="42.6913611" lng="-77.83188889" agc="USGS"/>
-        <site sno="424421077495301" sna="NY-SW1 MERRIMAC FARMS EDGE OF FIELD, E GROVELAND" cat="FA-FON" lat="42.7392861" lng="-77.8312944" agc="USGS"/>
-        <site sno="04226000" sna="KESHEQUA CR AT CRAIG COLONY AT SONYEA NY" cat="ST" lat="42.6824722" lng="-77.8286944" agc="USGS"/>
+    <site sno="08361000" sna="RIO GRANDE BELOW ELEPHANT BUTTE DAM, NM" cat="ST" lat="33.1485111" lng="-107.2067833" agc="USGS"/>
+    <site sno="334716104175400" sna="PECOS WEB CAMERA NEAR ROSWELL, NM" cat="ST" lat="33.78777778" lng="-104.2983333" agc="USGS"/>
+    <site sno="06342500" sna="MISSOURI RIVER AT BISMARCK, ND" cat="ST" lat="46.81416667" lng="-100.8213889" agc="USGS"/>
+    <site sno="05287890" sna="ELM CREEK NR CHAMPLIN, MN" cat="ST" lat="45.1632981" lng="-93.4366212" agc="USGS"/>
+    <site sno="05289800" sna="MINNEHAHA CREEK AT HIAWATHA AVE. IN MINNEAPOLIS,MN" cat="ST" lat="44.91552097" lng="-93.2127224" agc="USGS"/>
+    <site sno="05342000" sna="KINNICKINNIC RIVER NEAR RIVER FALLS, WI" cat="ST" lat="44.8308333" lng="-92.7330556" agc="USGS"/>
+    <site sno="05341752" sna="WILLOW RIVER @ WILLOW R STATE PARK NR BURKHARDT,WI" cat="ST" lat="45.01166667" lng="-92.7083333" agc="USGS"/>
+    <site sno="05365550" sna="CHIPPEWA RIVER BELOW DELLS DAM AT EAU CLAIRE, WI" cat="ST" lat="44.8225833" lng="-91.5076111" agc="USGS"/>
+    <site sno="05382200" sna="FRENCH CREEK NEAR ETTRICK, WI" cat="ST" lat="44.18440417" lng="-91.3137666" agc="USGS"/>
+    <site sno="05356500" sna="CHIPPEWA RIVER NEAR BRUCE, WI" cat="ST" lat="45.4521867" lng="-91.2609878" agc="USGS"/>
+    <site sno="463741090521301" sna="ASHLAND BREAKWATER LIGHTHOUSE CHEQUAMEGON BAY, WI" cat="LK" lat="46.6280833" lng="-90.8703889" agc="USGS"/>
+    <site sno="05407000" sna="WISCONSIN RIVER AT MUSCODA, WI" cat="ST" lat="43.19805556" lng="-90.4433333" agc="USGS"/>
+    <site sno="05400760" sna="WISCONSIN RIVER AT WISCONSIN RAPIDS, WI" cat="ST" lat="44.3921593" lng="-89.8271246" agc="USGS"/>
+    <site sno="05427943" sna="PHEASANT BRANCH AT AIRPORT ROAD NEAR MIDDLETON, WI" cat="ST" lat="43.1111111" lng="-89.5361111" agc="USGS"/>
+    <site sno="05427948" sna="PHEASANT BRANCH AT MIDDLETON, WI" cat="ST" lat="43.1033333" lng="-89.5116667" agc="USGS"/>
+    <site sno="05427718" sna="YAHARA RIVER AT WINDSOR, WI" cat="ST" lat="43.20888889" lng="-89.3525" agc="USGS"/>
+    <site sno="430402089183501" sna="US HWY 51 WISDOT GRASS SWALES DOWNSTRM MADISON, WI" cat="ST-DCH" lat="43.06713889" lng="-89.30975" agc="USGS"/>
+    <site sno="05429500" sna="YAHARA RIVER AT MC FARLAND, WI" cat="ST" lat="43.00888889" lng="-89.305" agc="USGS"/>
+    <site sno="05430150" sna="BADFISH CREEK NEAR COOKSVILLE, WI" cat="ST" lat="42.83333785" lng="-89.19678199" agc="USGS"/>
+    <site sno="05430175" sna="YAHARA RIVER NEAR FULTON, WI" cat="ST" lat="42.82638889" lng="-89.1719444" agc="USGS"/>
+    <site sno="442114088085701" sna="GLRI WATERWAY NUMBER 5 NR WRIGHTSTOWN, WI" cat="FA-FON" lat="44.3539722" lng="-88.1491944" agc="USGS"/>
+    <site sno="442119088085501" sna="GLRI WATERWAY NUMBER 4 NR WRIGHTSTOWN, WI" cat="FA-FON" lat="44.35530556" lng="-88.1486667" agc="USGS"/>
+    <site sno="441546088082001" sna="GLRI EAST RIVER WATERWAY NUMBER 2 NR GREENLEAF, WI" cat="FA-FON" lat="44.2628333" lng="-88.13875" agc="USGS"/>
+    <site sno="04085108" sna="EAST RIVER @ CNTY TRUNK HIGHWAY ZZ NR GREENLEAF,WI" cat="ST" lat="44.37194444" lng="-88.0922222" agc="USGS"/>
+    <site sno="04087214" sna="ROOT RIVER AT GRANGE AVENUE AT GREENFIELD, WI" cat="ST" lat="42.945" lng="-88.0141667" agc="USGS"/>
+    <site sno="040851385" sna="FOX RIVER AT OIL TANK DEPOT AT GREEN BAY, WI" cat="ST" lat="44.5286111" lng="-88.01" agc="USGS"/>
+    <site sno="04087220" sna="ROOT RIVER NEAR FRANKLIN, WI" cat="ST" lat="42.8736111" lng="-87.9958333" agc="USGS"/>
+    <site sno="04087233" sna="ROOT RIVER CANAL NEAR FRANKLIN, WI" cat="ST-CA" lat="42.81555556" lng="-87.9947222" agc="USGS"/>
+    <site sno="04087234" sna="ROOT RIVER AT 60TH ST NEAR CALEDONIA, WI" cat="ST" lat="42.85555556" lng="-87.9907222" agc="USGS"/>
+    <site sno="04087204" sna="OAK CREEK AT SOUTH MILWAUKEE, WI" cat="ST" lat="42.925" lng="-87.87" agc="USGS"/>
+    <site sno="04087257" sna="PIKE RIVER NEAR RACINE, WI" cat="ST" lat="42.64694444" lng="-87.8605556" agc="USGS"/>
+    <site sno="04086000" sna="SHEBOYGAN RIVER AT SHEBOYGAN, WI" cat="ST" lat="43.74138889" lng="-87.7521111" agc="USGS"/>
+    <site sno="443535087345401" sna="KW-25/24E/34-0183" cat="GW" lat="44.5929722" lng="-87.5816194" agc="USGS"/>
+    <site sno="411228084541701" sna="OVERLAND FLOW WEST OF BULL RAPIDS RD NR HARLAN, IN" cat="FA-FON" lat="41.20780556" lng="-84.9048333" agc="USGS"/>
+    <site sno="411229084541102" sna="DRAIN TILE EAST OF BULL RAPIDS RD NR HARLAN, IN" cat="FA-FON" lat="41.20813889" lng="-84.9032222" agc="USGS"/>
+    <site sno="411229084541101" sna="OVERLAND FLOW EAST OF BULL RAPIDS RD NR HARLAN, IN" cat="FA-FON" lat="41.20813889" lng="-84.9031667" agc="USGS"/>
+    <site sno="0414826504" sna="TRIB TO KIMBALL DRAIN NEAR SWARTZ CREEK, MI" cat="ST" lat="42.9222222" lng="-83.8330556" agc="USGS"/>
+    <site sno="405051083391201" sna="Eagle Creek waterway 1 near Williamstown OH" cat="FA-FON" lat="40.8475" lng="-83.6533333" agc="USGS"/>
+
+    <site sno="425543078535001" sna="MANHOLE, 50 FT E NIAGARA ST, 115 FT S SCAJAQUADA C" cat="FA-STS" lat="42.9285" lng="-78.8973056" agc="USGS"/>
+    <site sno="424131077495801" sna="NY-SW3 ALFRED FARMS EDGE OF FIELD, SONYEA NY" cat="FA-FON" lat="42.6918333" lng="-77.83263889" agc="USGS"/>
+    <site sno="424131077495802" sna="NY-TL1 ALFRED TILE EDGE OF FIELD, SONYEA NY" cat="FA-FON" lat="42.6918333" lng="-77.8324722" agc="USGS"/>
+    <site sno="424129077495501" sna="NY-SW4 ALFRED FARMS EDGE OF FIELD, SONYEA NY" cat="FA-FON" lat="42.69138889" lng="-77.8320278" agc="USGS"/>
+    <site sno="424129077495502" sna="NY-TL2 ALFRED TILE EDGE OF FIELD, SONYEA" cat="FA-FON" lat="42.6913611" lng="-77.83188889" agc="USGS"/>
+    <site sno="424421077495301" sna="NY-SW1 MERRIMAC FARMS EDGE OF FIELD, E GROVELAND" cat="FA-FON" lat="42.7392861" lng="-77.8312944" agc="USGS"/>
+    <site sno="04226000" sna="KESHEQUA CR AT CRAIG COLONY AT SONYEA NY" cat="ST" lat="42.6824722" lng="-77.8286944" agc="USGS"/>
+    <site sno="12439400" sna="OKANOGAN RIVER AT ZOSEL MILLPOND AT OROVILLE, WA" cat="ST" lat="48.93182968" lng="-119.4192307" agc="USGS"/>
+    <site sno="05054000" sna="RED RIVER OF THE NORTH AT FARGO, ND" cat="ST" lat="46.861075" lng="-96.7836924" agc="USGS"/>
+    <site sno="06892350" sna="KANSAS R AT DESOTO, KS" cat="ST" lat="38.9833375" lng="-94.9646893" agc="USGS"/>
+    <site sno="05341550" sna="ST. CROIX RIVER AT STILLWATER, MN" cat="ST" lat="45.05607806" lng="-92.8040963" agc="USGS"/>
+    <site sno="05356000" sna="CHIPPEWA RIVER AT BISHOPS BRIDGE NEAR WINTER, WI" cat="ST" lat="45.8486111" lng="-91.0788889" agc="USGS"/>
+    <site sno="05435943" sna="BADGER MILL CREEK AT VERONA, WI" cat="ST" lat="42.97694444" lng="-89.5394444" agc="USGS"/>
+    <site sno="04085108" sna="EAST RIVER @ CNTY TRUNK HIGHWAY ZZ NR GREENLEAF,WI" cat="ST" lat="44.37194444" lng="-88.0922222" agc="USGS"/>
+    <site sno="04087050" sna="LITTLE MENOMONEE RIVER NEAR FREISTADT, WI" cat="ST" lat="43.20667408" lng="-88.0384231" agc="USGS"/>
+    <site sno="04086600" sna="MILWAUKEE RIVER NEAR CEDARBURG, WI" cat="ST" lat="43.28027778" lng="-87.9425" agc="USGS"/>
+    <site sno="03339000" sna="VERMILION RIVER NEAR DANVILLE, IL" cat="ST" lat="40.10087009" lng="-87.5972419" agc="USGS"/>
+    <site sno="04182769" sna="ST. MARYS RIVER AT MAIN ST. AT FORT WAYNE, IN" cat="ST" lat="41.0786593" lng="-85.1544155" agc="USGS"/>
+    <site sno="04183000" sna="MAUMEE RIVER AT NEW HAVEN, IN" cat="ST" lat="41.08504866" lng="-85.0221904" agc="USGS"/>
+    <site sno="04183105" sna="MAUMEE RIVER AT SR 101 NEAR WOODBURN, IN" cat="ST" lat="41.16977778" lng="-84.8491667" agc="USGS"/>
+    <site sno="04183500" sna="Maumee River at Antwerp OH" cat="ST" lat="41.19893889" lng="-84.7444033" agc="USGS"/>
+    <site sno="04183979" sna="Platter Creek near Sherwood OH" cat="ST" lat="41.26694444" lng="-84.5919444" agc="USGS"/>
+    <site sno="04191444" sna="Little Flatrock Creek near Junction OH" cat="ST" lat="41.18555556" lng="-84.4955556" agc="USGS"/>
+    <site sno="04186500" sna="Auglaize River near Fort Jennings OH" cat="ST" lat="40.9486617" lng="-84.266059" agc="USGS"/>
+    <site sno="04157005" sna="SAGINAW RIVER AT HOLLAND AVENUE AT SAGINAW, MI" cat="ST" lat="43.4219699" lng="-83.951918" agc="USGS"/>
+    <site sno="01480000" sna="RED CLAY CREEK AT WOODDALE, DE" cat="ST" lat="39.76280556" lng="-75.6365" agc="USGS"/>
+    <site sno="01481000" sna="Brandywine Creek at Chadds Ford, PA" cat="ST" lat="39.8698328" lng="-75.5932623" agc="USGS"/>
+    <site sno="01426500" sna="WEST BRANCH DELAWARE RIVER AT HALE EDDY NY" cat="ST" lat="42.00302778" lng="-75.38352778" agc="USGS"/>
+    <site sno="01465500" sna="Neshaminy Creek near Langhorne, PA" cat="ST" lat="40.1739982" lng="-74.9568342" agc="USGS"/>
+    <site sno="01462000" sna="Delaware River at Lambertville NJ" cat="ST" lat="40.3647222" lng="-74.94888889" agc="USGS"/>
+    <site sno="01463500" sna="Delaware River at Trenton NJ" cat="ST" lat="40.22166667" lng="-74.7780556" agc="USGS"/>
+    <site sno="01437500" sna="NEVERSINK RIVER AT GODEFFROY NY" cat="ST" lat="41.4411111" lng="-74.6019444" agc="USGS"/>
+    <site sno="05333500" sna="ST. CROIX RIVER NEAR DANBURY, WI" cat="ST" lat="46.0761111" lng="-92.2466667" agc="USGS"/>
+    <site sno="05370000" sna="EAU GALLE RIVER AT SPRING VALLEY, WI" cat="ST" lat="44.85277778" lng="-92.2383333" agc="USGS"/>
+    <site sno="04024430" sna="NEMADJI RIVER NEAR SOUTH SUPERIOR, WI" cat="ST" lat="46.6333333" lng="-92.0938889" agc="USGS"/>
+    <site sno="05369500" sna="CHIPPEWA RIVER AT DURAND, WI" cat="ST" lat="44.631" lng="-91.9713333" agc="USGS"/>
+    <site sno="05367500" sna="RED CEDAR RIVER NEAR COLFAX, WI" cat="ST" lat="45.05305556" lng="-91.7119444" agc="USGS"/>
+    <site sno="04025500" sna="BOIS BRULE RIVER AT BRULE, WI" cat="ST" lat="46.53777778" lng="-91.5952778" agc="USGS"/>
+    <site sno="05379400" sna="TREMPEALEAU RIVER AT ARCADIA, WI" cat="ST" lat="44.25444444" lng="-91.5052778" agc="USGS"/>
+    <site sno="05366800" sna="CHIPPEWA R AT GRAND AVE AT EAU CLAIRE, WI" cat="ST" lat="44.80959899" lng="-91.5029665" agc="USGS"/>
+    <site sno="05331833" sna="NAMEKAGON RIVER AT LEONARDS, WI" cat="ST" lat="46.1713409" lng="-91.32935" agc="USGS"/>
+    <site sno="05382284" sna="SILVER CREEK AT STATE HIGHWAY 21 NEAR ANGELO, WI" cat="ST" lat="43.9672222" lng="-90.765" agc="USGS"/>
+    <site sno="05382267" sna="LA CROSSE RIVER @ CNTY TRUNK HIGHWY BB NR TOMAH,WI" cat="ST" lat="44.00027778" lng="-90.7244444" agc="USGS"/>
+    <site sno="05359500" sna="SOUTH FORK FLAMBEAU RIVER NEAR PHILLIPS, WI" cat="ST" lat="45.7033333" lng="-90.6155556" agc="USGS"/>
+    <site sno="05402000" sna="YELLOW RIVER AT BABCOCK, WI" cat="ST" lat="44.3022222" lng="-90.1219444" agc="USGS"/>
+    <site sno="433821090063801" sna="DISCOVERY FARMS WATERWAY RS2 NEAR MAUSTON, WI" cat="FA-FON" lat="43.63905556" lng="-90.1104722" agc="USGS"/>
+    <site sno="433939090050501" sna="DISCOVERY FARMS WATERWAY RS1 NEAR MAUSTON, WI" cat="FA-FON" lat="43.6608611" lng="-90.0846389" agc="USGS"/>
+    <site sno="05399500" sna="BIG EAU PLEINE RIVER AT STRATFORD, WI" cat="ST" lat="44.8219098" lng="-90.0795754" agc="USGS"/>
+    <site sno="05433000" sna="EAST BRANCH PECATONICA RIVER NR BLANCHARDVILLE, WI" cat="ST" lat="42.78555556" lng="-89.8611111" agc="USGS"/>
+    <site sno="05401050" sna="TENMILE CREEK NEAR NEKOOSA, WI" cat="ST" lat="44.2625" lng="-89.8102778" agc="USGS"/>
+    <site sno="05434500" sna="PECATONICA RIVER AT MARTINTOWN, WI" cat="ST" lat="42.51" lng="-89.8013889" agc="USGS"/>
+    <site sno="05435950" sna="SUGAR RIVER NEAR VERONA, WI" cat="ST" lat="42.94916667" lng="-89.5441667" agc="USGS"/>
+    <site sno="054279465" sna="S FORK PHEASANT BRANCH @ DEMING WAY @ MIDDLETON,WI" cat="ST" lat="43.09860617" lng="-89.52151" agc="USGS"/>
+    <site sno="05427880" sna="SIXMILE CREEK AT STATE HIGHWAY 19 NEAR WAUNAKEE,WI" cat="ST" lat="43.1922222" lng="-89.4728889" agc="USGS"/>
+    <site sno="05427927" sna="DORN (SPRING) CREEK @ CT HIGHWAY Q NR WAUNAKEE, WI" cat="ST" lat="43.14505556" lng="-89.4718611" agc="USGS"/>
+    <site sno="05427965" sna="SPRING HARBOR STORM SEWER AT MADISON, WI" cat="FA-STS" lat="43.07916667" lng="-89.4708333" agc="USGS"/>
+    <site sno="05427930" sna="DORN (SPRING) CREEK AT CT HIGHWAY M NR WAUNAKEE,WI" cat="ST" lat="43.14027778" lng="-89.4423056" agc="USGS"/>
+    <site sno="05427910" sna="SIXMILE CREEK @ COUNTY TRNK HGHWY M NR WAUNAKEE,WI" cat="ST" lat="43.1468333" lng="-89.4368333" agc="USGS"/>
+    <site sno="05436500" sna="SUGAR RIVER NEAR BRODHEAD, WI" cat="ST" lat="42.61230556" lng="-89.3979722" agc="USGS"/>
+    <site sno="05428500" sna="YAHARA RIVER AT EAST MAIN STREET AT MADISON, WI" cat="ST" lat="43.08944444" lng="-89.3608333" agc="USGS"/>
+    <site sno="05429700" sna="YAHARA RIVER @ FORTON STREET BRIDGE @ STOUGHTON,WI" cat="ST" lat="42.9197239" lng="-89.2203937" agc="USGS"/>
+    <site sno="451021089064901" sna="DISCOVERY FARMS WATERWAY AO1 NEAR ANTIGO, WI" cat="FA-FON" lat="45.17238889" lng="-89.1136111" agc="USGS"/>
+    <site sno="451207089041801" sna="DISCOVERY FARMS WATERWAY AO2 NEAR ANTIGO, WI" cat="FA-FON" lat="45.2019444" lng="-89.0718056" agc="USGS"/>
+    <site sno="05430500" sna="ROCK RIVER AT AFTON, WI" cat="ST" lat="42.6136111" lng="-89.0716667" agc="USGS"/>
+    <site sno="040734605" sna="GREEN LAKE SW INLET @ CT HIGHWY K NR GREEN LAKE,WI" cat="ST" lat="43.7771111" lng="-89.0568611" agc="USGS"/>
+    <site sno="05427530" sna="ROCK RIVER AT NEWVILLE, WI" cat="ST" lat="42.83" lng="-89.0213889" agc="USGS"/>
+    <site sno="04081000" sna="WAUPACA RIVER NEAR WAUPACA, WI" cat="ST" lat="44.32916667" lng="-88.9958333" agc="USGS"/>
+    <site sno="04073462" sna="WHITE CREEK AT SPRING GROVE ROAD NR GREEN LAKE, WI" cat="ST" lat="43.8161111" lng="-88.9283333" agc="USGS"/>
+    <site sno="04080000" sna="LITTLE WOLF RIVER AT ROYALTON, WI" cat="ST" lat="44.4124806" lng="-88.8653842" agc="USGS"/>
+    <site sno="05427085" sna="ROCK RIVER AT ROBERT STREET AT FORT ATKINSON, WI" cat="ST" lat="42.9275" lng="-88.8427778" agc="USGS"/>
+    <site sno="04079000" sna="WOLF RIVER AT NEW LONDON, WI" cat="ST" lat="44.3922026" lng="-88.7403812" agc="USGS"/>
+    <site sno="05424057" sna="ROCK RIVER AT HORICON, WI" cat="ST" lat="43.45027778" lng="-88.6322222" agc="USGS"/>
+    <site sno="441624088045601" sna="GLRI EAST RIVER WATERWAY NUMBER 1 NR GREENLEAF, WI" cat="FA-FON" lat="44.2733611" lng="-88.0821667" agc="USGS"/>
+    <site sno="0408708567" sna="UNDERWOOD CREEK AT UNNAMED ROAD, ELM GROVE, WI" cat="ST" lat="43.0372222" lng="-88.0672222" agc="USGS"/>
+    <site sno="040870860" sna="UNDERWOOD CREEK AT W BLUE MOUND RD, ELM GROVE, WI" cat="ST" lat="43.0361111" lng="-88.0669444" agc="USGS"/>
+    <site sno="0408708572" sna="UNDERWOOD CREEK NR W SCHLINGER AVE, WEST ALLIS, WI" cat="ST" lat="43.02388889" lng="-88.0625" agc="USGS"/>
+    <site sno="04087087" sna="UNDERWOOD CREEK AT 115TH STREET AT WAUWATOSA, WI" cat="ST" lat="43.04277778" lng="-88.05638889" agc="USGS"/>
+    <site sno="04087119" sna="HONEY CREEK AT WAUWATOSA, WI" cat="ST" lat="43.0438333" lng="-88.0051111" agc="USGS"/>
+    <site sno="04087120" sna="MENOMONEE RIVER AT WAUWATOSA, WI" cat="ST" lat="43.04555556" lng="-87.9997222" agc="USGS"/>
+    <site sno="425931087570201" sna="29TH ST STORM SEWER OUTLET AT MILWAUKEE, WI" cat="FA-OF" lat="42.99194444" lng="-87.9505556" agc="USGS"/>
+    <site sno="04087240" sna="ROOT RIVER AT RACINE, WI" cat="ST" lat="42.75138889" lng="-87.8236111" agc="USGS"/>
+    <site sno="04086000" sna="SHEBOYGAN RIVER AT SHEBOYGAN, WI" cat="ST" lat="43.74138889" lng="-87.7521111" agc="USGS"/>
+    <site sno="442405087414401" sna="DISCOVERY FARMS WATERWAY KD1 NEAR KEWAUNEE, WI" cat="FA-FON" lat="44.40127778" lng="-87.6955556" agc="USGS"/>
+    <site sno="442155087330001" sna="DISCOVERY FARMS WATERWAY KD2 NEAR KEWAUNEE, WI" cat="FA-FON" lat="44.36527778" lng="-87.54988889" agc="USGS"/>
+    <site sno="413612087201001" sna="CITY HALL DRAIN OUTFLOW AT GARY, IN" cat="FA-STS" lat="41.60336389" lng="-87.3359917" agc="USGS"/>
+    <site sno="04182000" sna="ST. MARYS RIVER NEAR FORT WAYNE, IN" cat="ST" lat="40.9878257" lng="-85.111914" agc="USGS"/>
+    <site sno="04183000" sna="MAUMEE RIVER AT NEW HAVEN, IN" cat="ST" lat="41.08504866" lng="-85.0221904" agc="USGS"/>
+    <site sno="411229084541102" sna="DRAIN TILE EAST OF BULL RAPIDS RD NR HARLAN, IN" cat="FA-FON" lat="41.20813889" lng="-84.9032222" agc="USGS"/>
+    <site sno="04183038" sna="BLACK CREEK NEAR HARLAN, IN" cat="ST" lat="41.1830833" lng="-84.8696944" agc="USGS"/>
+    <site sno="04185318" sna="Tiffin River near Evansport OH" cat="ST" lat="41.3825" lng="-84.4161111" agc="USGS"/>
+    <site sno="04192500" sna="Maumee River near Defiance OH" cat="ST" lat="41.2919928" lng="-84.2810573" agc="USGS"/>
+    <site sno="04190000" sna="Blanchard River near Dupont OH" cat="ST" lat="41.0414393" lng="-84.2268905" agc="USGS"/>
+    <site sno="04188100" sna="Ottawa River near Kalida OH" cat="ST" lat="40.9903287" lng="-84.2266132" agc="USGS"/>
+    <site sno="03093000" sna="Eagle Creek at Phalanx Station OH" cat="ST" lat="41.26116735" lng="-80.9542569" agc="USGS"/>
+    <site sno="425520078535601" sna="MANHOLE, DELEVAN ST, 110 FT WEST OF NIAGARA ST" cat="FA-STS" lat="42.92227778" lng="-78.8988333" agc="USGS"/>
+    <site sno="01161280" sna="CONNECTICUT RIVER NEAR NORTHFIELD, MA" cat="ST" lat="42.6833333" lng="-72.4719444" agc="USGS"/>
     </sites>
 </mapper>

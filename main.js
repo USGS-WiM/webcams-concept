@@ -34,13 +34,13 @@ var xmlSites;
 
                             //only continue if valid latlng found
                             if (latlngArr[0] != "error") {
-                                if (site.SiteType2 == "stream"){
+                                //if (site.SiteType2 == "stream"){
                                     webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
                                     streamLayer.addLayer(webcamMarkers[siteID])
-                                } else{
+                               /*  } else{
                                     webcamMarkers[siteID] = L.circleMarker(latlngArr, { fillColor: "#d11010", color: "#000", weight: 0, fillOpacity: 0.6, radius: 8 }).bindPopup(customPopup);
                                     sitesLayer.addLayer(webcamMarkers[siteID])
-                                }
+                                } */
                                 
                                 count++;
                             }
@@ -60,7 +60,14 @@ var xmlSites;
                             });
                             //return latlng only if the site is found in the NWIS sites.xml
                             if (latlng.length > 0) {
-                                return latlng;
+                                if (latlng.length > 2) {
+                                    var newLatLng = latlng.slice(0,2);
+                                    return newLatLng;
+                                    
+                                } else {
+                                    return latlng;
+                                }   
+                                
                             } else {
                                 console.log('unable to find site in NWIS return: ', siteId)
                                 latlng.push('error');
